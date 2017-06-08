@@ -1,0 +1,13 @@
+class NegPrimaryItem extends PrimaryItem 
+{
+	NegPrimaryItem(Primary p)
+	{
+		primary = p;
+	}
+
+	void printParseTree(String indent)
+	{
+		IO.displayln(indent + indent.length() + " -");
+		primary.printParseTree(indent);
+	}	
+}

@@ -1,0 +1,21 @@
+
+Use eclipse to compile and run program,the program is to read the input/output file names as external arguments to the main function. 
+
+
+
+
+“Go to Run > Run Configurations 
+
+Select the Arguments tab 
+
+In the Program arguments box, enter external-argument file names on separate lines. For example, 
+
+testInput.txt 
+testOutput.txt 
+
+Click Apply 
+
+If your main function is using "String argv[]" argument, the above will set argv[0] to "testInput.txt" and argv[1] to "testOutput.txt”.”
+
+————————— form professor Yukawa.
+
